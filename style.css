@@ -1,0 +1,150 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.scoreboard {
+  display: flex;
+  background-color: #14213d;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  width: 80rem;
+  height: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  border-radius: 50px;
+  border: 10px solid white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10rem;
+  margin-bottom: 0;
+  letter-spacing: 20px;
+  margin-top: 0;
+}
+
+.score-box {
+  width: 200px;
+  height: 200px;
+  background-color: #080001;
+  margin: 30px auto;
+}
+
+#home-score,
+#guest-score {
+  background-color: #080001;
+  font-size: 10rem;
+  width: 20rem;
+  height: 15rem;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #f94f6d;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  width: 7rem;
+  height: 7rem;
+}
+
+.plus-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+  width: 30rem;
+}
+
+#plus-1,
+#plus-2,
+#plus-3 {
+  font-size: 40px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border: 5px solid #9aabd8;
+  border-radius: 15px;
+  color: #9aabd8;
+  background: #14213d;
+  height: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 0 #0a0a23, 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+#plus-1:hover,
+#plus-2:hover,
+#plus-3:hover {
+  background: #1f2a4d;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 #0a0a23, 0 12px 20px rgba(0, 0, 0, 0.6);
+}
+
+#plus-1:active,
+#plus-2:active,
+#plus-3:active {
+  transform: translateY(5px);
+  box-shadow: 0 3px 0 #0a0a23, 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.reset-btn {
+  border-radius: 50%;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 2.2rem;
+  width: 150px;
+  height: 150px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(145deg, #ff4b5c, #d90429);
+  border: none;
+  box-shadow: 0 8px 0 #a0001c, 0 12px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 50px;
+}
+
+.reset-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 0 #a0001c, 0 16px 25px rgba(0, 0, 0, 0.6);
+}
+
+.reset-btn:active {
+  transform: translateY(6px);
+  box-shadow: 0 4px 0 #a0001c, 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.undo-btn {
+  border-radius: 15px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 2rem;
+  width: 180px;
+  height: 70px;
+  font-weight: bold;
+  color: #14213d;
+  background: linear-gradient(145deg, #fca311, #ffb347);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 6px 0 #a66300, 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.undo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 #a66300, 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.undo-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px 0 #a66300, 0 6px 12px rgba(0, 0, 0, 0.4);
+}
